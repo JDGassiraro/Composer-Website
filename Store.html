@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Store</title>
+	<link rel="stylesheet" href="ChopinStyles.css">
+</head>
+	<body>
+		<header class="main-header">
+			<nav class="nav main-nav">
+				<ul>
+					<li><a href="Home.html">HOME</a></li>
+					<li><a href="Store.html">STORE</a></li>
+					<li><a href="AboutChopin.html">ABOUT</a></li>
+				</ul>
+			</nav>
+		<h1 class="band-name band-name-large">Store for Federic Chopin</h1>
+		</header>
+	<section class="content-section container">
+		<h2 class="section-header">MUSIC</h2>
+		<div class= "shop-items">
+			<div class="shop-item"><!--div block for Album 1-->
+					<span class="shop-item-title">Album 1</span>
+				<img class="shop-item-image" src="Images/sunrise350.jpg">
+				<div class="shop-item-details">
+					<span class="shop-item-price">$12.99</span>
+					<button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+				</div>
+			</div>
+			<div class="shop-item"><!--div block for Album 2-->
+				<span class="shop-item-title">Album 2</span>
+				<img class="shop-item-image" src="Images/sunrise350.jpg">
+				<div class="shop-item-details">
+					<span class="shop-item-price">$12.99</span>
+					<button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+				</div>
+			</div>
+			<div class="shop-item"><!--div block for Album 3-->
+				<span class="shop-item-title">Album 3</span>
+				<img class="shop-item-image" src="Images/sunrise350.jpg">
+				<div class="shop-item-details">
+					<span class="shop-item-price">$12.99</span>
+					<button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+				</div>
+			</div>
+			<div class="shop-item"><!--div block for Album 4-->
+				<span class="shop-item-title">Album 4</span>
+				<img class="shop-item-image" src="Images/sunrise350.jpg">
+				<div class="shop-item-details">
+					<span class="shop-item-price">$12.99</span>
+					<button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="content-section container">
+			<h2 class="section-header">MERCH</h2>
+	<div class="shop-items">
+		<div class="shop-item"><!--div block for Baby Onsie-->
+			<span class="shop-item-title">Baby Onsie</span>
+			<img class="shop-item-image" src="Images/chopinonsie.jpg">
+			<div class="shop-item-details">
+				<span class="shop-item-price">$10.99</span>
+				<button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+			</div>
+		</div>
+		<div class="shop-item"><!--div block for Mug-->
+			<span class="shop-item-title">Mug</span>
+			<img class="shop-item-image" src="Images/chopinmug.jpg">
+			<div class="shop-item-details">
+				<span class="shop-item-price">$12.99</span>
+				<button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+			</div>
+		</div>
+		<div class="shop-item"><!--div block for Punny Shirt-->
+			<span class="shop-item-title">Punny Shirt</span>
+			<img class="shop-item-image" src="Images/chopinpunshirt.jpeg">
+			<div class="shop-item-details">
+				<span class="shop-item-price">$12.99</span>
+				<button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+			</div>
+		</div>
+		<div class="shop-item"><!--div block for Cool Shirt-->
+			<span class="shop-item-title">Cool Shirt</span>
+			<img class="shop-item-image" src="Images/chopinshirt2.jpg">
+			<div class="shop-item-details">
+				<span class="shop-item-price">$10.99</span>
+				<button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+			</div>
+		</div>
+	</div>
+	</section>
+	<section class="container content-section">
+		<h2 class="section-header">CART</h2>
+		<div class="cart-row">
+			<span class="cart-item cart-header cart-column">ITEM</span>
+			<span class="cart-price cart-header cart-column">PRICE</span>
+			<span class="cart-quantity cart-header cart-column">QUANTITY</span>
+		</div>
+		<div class="cart-items">
+			<div class="cart-row"> <!--cart row for Onsie-->
+				<div class="cart-item cart-column">
+					<img class="cart-item-image" src="Images/chopinonsie.jpg" width="100" height="100">
+					<span class="cart-item-title">Onsie</span>
+				</div>
+					<span class="cart-price cart-column">$10.99</span>
+				<div class="cart-quantity cart-column"><!--button-->
+					<input class="cart-quantity-input" type="number" value="1">
+					<button class="btn btn-danger" role="button">REMOVE</button>
+				</div>
+			</div>
+			<div class="cart-row"><!--cart row for Mug-->
+				<div class="cart-item cart-column">
+					<img class="cart-item-image"src="Images/chopinmug.jpg" width="100" height="100">
+					<span class="cart-item-title">Mug</span>
+				</div>
+					<span class="cart-price cart-column">$12.99</span>
+				<div class="cart-quantity cart-column"><!--button-->
+					<input class="cart-quantity-input" type="number" value="2">
+					<button class="btn btn-danger" role="button">REMOVE</button>
+				</div>
+			</div>
+		</div>
+		<div class= "cart-total"> <!--div shows the total and the price-->
+			<span class="cart-total-title">TOTAL</span>
+			<span class="cart-total-price">$39.97</span>
+		</div>
+		<button class="btn btn-primary btn-purchase"role="button">PURCHASE</button>
+	</section>
+		<footer class="main-footer">
+			<div class="container main-footer-container">
+			<h3 class= "band-name">The Best Romantic Era Composer</h3>
+			<ul class= "nav footer-nav">
+				<li>
+					<a href="https://open.spotify.com" target=_blank>
+					<img src="Images/spotify.jpg"width="50px" height="50px">
+					</a>
+				</li>
+				<li>
+					<a href="https://wikipedia.com" target=_blank>
+					<img src="Images/wikipedia.jpg"width="50px" height="50px">
+					</a>
+				</li>
+				<li>
+					<a href="https://youtube.com" target=_blank>
+					<img src="Images/youtube.jpg"width="50px" height="50px">
+					</a>
+				</li>
+			</ul>
+			</div>
+		</footer>
+	</body>
+</html>
